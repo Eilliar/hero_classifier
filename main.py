@@ -8,7 +8,8 @@ class Hero():
         self.lvl = self.get_tag()
 
     def start(self):
-        self.exp = int(input("What is the here experience points? "))
+        self.name= input("Qual o nome do seu Herói? ")
+        self.exp = int(input("Quantos pontos de experiência o Herói tem? "))
         self.lvl = self.get_tag()
 
     def get_tag(self):
